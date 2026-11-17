@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #003366;
+    padding: 25px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.icone-livros {
+    font-size: 38px;
+    line-height: 1;
+    margin-right: 14px;
+}
+
+.btn {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.sesi {
+    background-color: #e30613;
+}
+
+.senai {
+    background-color: #005ca9;
+}
+
+.link {
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.inicio {
+    margin-left: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+}
+
+.hero {
+    background-color: #0875c9;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-texto {
+    font-size: 17px;
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.proposito {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.proposito h2 {
+    font-size: 30px;
+    color: #0875c9;
+    margin-bottom: 35px;
+}
+
+.proposito-lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.proposito-lista li {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 10px;
+    border: 2px solid #0875c9;
+    width: 33%;
+    transition: 0.3s;
+    animation: aparecer 0.8s;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.proposito-lista h3 {
+    color: #0875c9;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.proposito-lista p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: 0.3s;
+}
+
+.proposito-lista li:hover {
+    background-color: #0875c9;
+}
+
+.proposito-lista li:hover h3,
+.proposito-lista li:hover p {
+    color: #ffffff;
+}
+
+.equipe {
+    background-color: #e5edf5;
+    padding: 60px 40px;
+}
+
+.equipe-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.equipe-intro h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+.equipe-intro p {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.equipe-grade {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.equipe-grade li {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+.foto {
+    width: 100%;
+    height: 280px;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.equipe-grade h3 {
+    color: #123b62;
+    margin: 20px 0 8px;
+    text-align: center;
+}
+
+.cargo {
+    color: #0875c9;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.equipe-grade li p:last-child {
+    color: #666;
+    padding: 0 15px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #123b62;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .proposito-lista {
+        flex-direction: column;
+    }
+
+    .proposito-lista li {
+        width: 100%;
+    }
+
+    .equipe-grade {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 27px;
+    }
+
+    .proposito,
+    .equipe {
+        padding: 40px 20px;
+    }
+}
