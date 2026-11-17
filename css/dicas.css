@@ -1,0 +1,86 @@
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #1e3a8a;
+}
+
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.menu {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.menu a:hover {
+    color: #facc15;
+    text-decoration: underline;
+}
+
+h1, #intro {
+    color:green;
+    
+}
+
+#intro2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    margin-top: -20px;
+    
+}
+
+#intro2 h1, #intro2 p {
+    margin-right: 10px;
+}
+#dicas_biologia, #dicas_fisica {
+    margin-bottom: 20px;
+    background-color: #cfc1c1;
+        padding: 10px;
+
+   
+}
+
+#dicas_biologia {
+    margin-right: 10px;
+}
+
+#dicas_fisica {
+    margin-left: 10px;
+    
+}
+
+
+#dicas_gerais {
+    display: flex;
+    margin: 10px;
+
+}
+
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+
+}
