@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #F8FAFC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1F2937;
+}
+
+header {
+    display: flex;
+    background-color: #FAF8F5;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1d315a;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.titulo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #28354a;
+}
+
+
+.btn {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+
+.link {
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.inicio {
+    margin-left: auto;
+}
+#slogan {
+    text-align:start;
+    background-color: #003366;
+    padding: 40px 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#carreiras {
+    
+}
