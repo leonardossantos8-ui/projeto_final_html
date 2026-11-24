@@ -11,9 +11,8 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho */
 .cabecalho {
-    background-color: #0b192c; /* Outras opções: #1a1a1a (Grafite) | #1e293b (Cinza Ardósia) */
+    background-color: #d10404;
     padding: 14px 36px 14px 16px;
     display: flex;
     justify-content: space-between;
@@ -62,10 +61,9 @@ body {
     opacity: 0.8;
 }
 
-/* Banner */
 .banner {
-    background-color: #005f73; /* Outras opções: #b8000b (Vermelho) | #1d4ed8 (Azul Royal) */
-    color: #ffffff;
+    background-color: #edecec; 
+    color: #000000;
     text-align: center;
     padding: 85px 20px;
     display: flex;
@@ -87,10 +85,9 @@ body {
     font-size: 14.5px;
     line-height: 1.55;
     max-width: 680px;
-    color: #f4f8fc;
+    color: #000000;
 }
 
-/* Conteúdo Principal */
 .conteudo-principal {
     max-width: 1100px;
     margin: 0 auto;
@@ -109,7 +106,6 @@ body {
     border-left: 4px solid #e30613;
 }
 
-/* Cards de Modalidades */
 .cards-grid {
     list-style: none;
     display: grid;
@@ -141,7 +137,6 @@ body {
     margin-bottom: 6px;
 }
 
-/* Lista de Passos */
 .lista-passos {
     background-color: #ffffff;
     padding: 25px 25px 25px 45px;
@@ -157,7 +152,6 @@ body {
     margin-bottom: 0;
 }
 
-/* Caixa de Destaque */
 .destaque-box {
     background-color: #ffffff;
     padding: 25px;
@@ -174,7 +168,6 @@ body {
     margin-bottom: 8px;
 }
 
-/* Botões e Links Úteis */
 .links-uteis {
     list-style: none;
     display: flex;
@@ -207,10 +200,9 @@ body {
     opacity: 0.88;
 }
 
-/* Rodapé */
 .rodape {
-    background-color: #1a1a1a;
-    color: #cccccc;
+    background-color: #d92424;
+    color: #f1efef;
     text-align: center;
     padding: 24px max(20px, calc((100% - 1100px) / 2));
     margin-top: 50px;
