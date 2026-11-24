@@ -5,7 +5,37 @@
     padding: 16px 32px;
     background-color: #1e3a8a;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
 
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 32px;
+    background-color: #1e3a8a;
+}
+
+
+
+header h1 {
+    flex: 1;
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+header a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .logo {
     color: #ffffff;
@@ -40,6 +70,33 @@
     opacity: 0.75;
 }
 
+
+.Escola2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#SESI {
+    background-color: #e30613;
+    margin: 0;
+}
+
+
+#SENAI {
+    background-color: #005ca9;
+    margin: 0;
+}
+
+.Escola {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 p, li {
     font-size: 19px;
 }
@@ -60,4 +117,14 @@ footer {
 
 main {
     background-color: #a7e69f;
+}
+
+img {
+    height: 350px;
+    border-radius: 10px;
+}
+
+button {
+    height: 40px;
+    margin-left: 650px;
 }
