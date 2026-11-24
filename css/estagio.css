@@ -12,7 +12,7 @@ body {
 }
 
 .cabecalho {
-    background-color: #d10404;
+    background-color: rgb(0, 51, 102);
     padding: 14px 36px 14px 16px;
     display: flex;
     justify-content: space-between;
@@ -36,11 +36,11 @@ body {
 }
 
 .sesi {
-    background-color: #b50c17;
+    background-color: rgb(7, 40, 72);
 }
 
 .senai {
-    background-color: #014a86;
+    background-color: rgb(3, 33, 63);
 }
 
 .menu ul {
@@ -103,7 +103,7 @@ body {
     color: #1a1a1a;
     margin-bottom: 18px;
     padding-left: 12px;
-    border-left: 4px solid #e30613;
+    border-left: 4px solid rgb(0, 51, 102);
 }
 
 .cards-grid {
@@ -118,12 +118,12 @@ body {
     padding: 24px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    border-top: 3px solid #e30613;
+    border-top: 3px solid rgb(0, 51, 102);
 }
 
 .card h4 {
     font-size: 1.2rem;
-    color: #e30613;
+    color: rgb(0, 51, 102);
     margin-bottom: 10px;
 }
 
@@ -186,7 +186,7 @@ body {
 }
 
 .btn-primario {
-    background-color: #e30613;
+    background-color: rgb(0, 51, 102);
     color: #ffffff;
 }
 
@@ -201,7 +201,7 @@ body {
 }
 
 .rodape {
-    background-color: #d92424;
+    background-color: rgb(0, 51, 102);
     color: #f1efef;
     text-align: center;
     padding: 24px max(20px, calc((100% - 1100px) / 2));
