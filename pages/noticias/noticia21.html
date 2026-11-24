@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/noticia21.css">
+  <title>Braço robótico inspirado nos polvos | Portal Educacional SESI-SENAI</title>
+</head>
+<body>
+
+  <header>
+    <span class="icone-livros" aria-hidden="true">📚</span>
+    <a href="#" class="btn sesi">SESI</a>
+    <a href="#" class="btn senai">SENAI</a>
+
+    <nav aria-label="Navegação principal">
+      <a href="../../index.html" class="link">Início</a>
+      <a href="../disciplina.html" class="link">Cursos</a>
+      <a href="../dicas.html" class="link">Dicas</a>
+      <a href="../estagio.html" class="link">Estágio</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cabecalho-tema">
+      <span class="categoria">Biomimética • Tecnologia Inspirada na Natureza</span>
+      <h1>Braço robótico inspirado nos polvos usa um único músculo artificial</h1>
+      <p class="info-publicacao">Inovação Tecnológica – 20/10/2026 • Curadoria: Ygor Ferreira</p>
+    </section>
+
+    <section class="area-noticia">
+      <article class="card-noticia">
+        <div class="campo-imagem">
+  <label for="input-imagem" class="botao-imagem">Escolher imagem</label>
+  <input type="file" id="input-imagem" accept="image/*">
+</div>
+
+<figure class="imagem-noticia">
+  <img id="preview-imagem" src="" alt="Pré-visualização da imagem da notícia">
+  <figcaption>Imagem da notícia</figcaption>
+</figure>
+
+<script>
+  const inputImagem = document.getElementById("input-imagem");
+  const previewImagem = document.getElementById("preview-imagem");
+
+  inputImagem.addEventListener("change", function () {
+    const arquivo = this.files[0];
+    if (arquivo) {
+      previewImagem.src = URL.createObjectURL(arquivo);
+      previewImagem.style.display = "block";
+    }
+  });
+</script>
+
+        <p>
+          Copiando a biomecânica dos tentáculos dos polvos, pesquisadores criaram um braço robótico flexível que realiza movimentos complexos com vários graus de liberdade utilizando apenas um atuador. A redução no número de motores torna o sistema muito mais leve e compacto, viabilizando o uso de robôs macios em drones e ambientes confinados.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2026 SESI-SENAI. Todos os direitos reservados.</small>
+  </footer>
+
+</body>
+</html>
+

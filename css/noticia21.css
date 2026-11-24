@@ -1,0 +1,157 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #222222;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Barra superior (Header) */
+header {
+  background-color: #003366;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icone-livros {
+  font-size: 28px;
+}
+
+.btn {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
+
+.sesi {
+  background-color: #e30613;
+}
+
+.senai {
+  background-color: #0066b3;
+}
+
+header nav {
+  display: flex;
+  gap: 25px;
+  margin-left: auto;
+}
+
+header nav .link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header nav .link:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+  flex: 1;
+}
+
+/* Cabeçalho da notícia */
+.cabecalho-tema {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.categoria {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  color: #0066b3;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.cabecalho-tema h1 {
+  max-width: 800px;
+  margin: 0 auto 12px auto;
+  color: #003366;
+  font-size: 28px;
+}
+
+.info-publicacao {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* Caixa centralizada com imagem e texto da notícia */
+.area-noticia {
+  max-width: 800px;
+  margin: 35px auto;
+  padding: 0 20px;
+}
+
+.card-noticia {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left: 5px solid #0066b3;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.campo-imagem {
+  margin-bottom: 18px;
+}
+
+.campo-imagem input[type="file"] {
+  display: none;
+}
+
+.botao-imagem {
+  display: inline-block;
+  background-color: #0066b3;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-imagem:hover {
+  background-color: #004f8a;
+}
+
+#preview-imagem {
+  display: none;
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 6px;
+  background-color: #e9eef5;
+}
+
+.card-noticia p {
+  font-size: 17px;
+  color: #333333;
+}
+
+/* Rodapé */
+footer {
+  background-color: #003366;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+
