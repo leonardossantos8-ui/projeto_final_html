@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #14284b;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #003366;
+    padding: 25px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.icone-livros {
+    font-size: 38px;
+    line-height: 1;
+    margin-right: 14px;
+}
+
+.btn {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+.sesi {
+    background-color: #e30613;
+}
+
+.senai {
+    background-color: #005ca9;
+}
+
+.tag {
+    margin-left: auto;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.voltar {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 8px 14px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+
+.voltar:hover {
+    opacity: 0.8;
+}
+
+.secao-tema {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+.cabecalho-tema {
+    display: block;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.cabecalho-tema h2 {
+    font-size: 28px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color: #14284b;
+}
+
+.cabecalho-tema p {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #334155;
+}
+
+.etiqueta {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #64748b;
+}
+
+
+.tema-1 {
+    border-left: 8px solid #1e6091;
+}
+
+.tema-2 {
+    border-left: 8px solid #2a7b5c;
+}
+
+.tema-3 {
+    border-left: 8px solid #5e4b8b;
+}
+
+.tema-4 {
+    border-left: 8px solid #9e2a2b;
+}
+
+.grade-noticias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-noticia {
+    flex: 1 1 300px;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px solid #dce1e8;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-noticia:hover {
+    border: 1px solid #14284b;
+}
+
+.data {
+    font-size: 12px;
+    font-weight: bold;
+    color: #64748b;
+    margin-bottom: 10px;
+}
+
+.card-noticia h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #14284b;
+}
+
+.card-noticia p {
+    font-size: 14px;
+    color: #334155;
+    margin-bottom: 20px;
+}
+
+.ler-mais {
+    margin-top: auto;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ler-mais:hover {
+    text-decoration: underline;
+}
+
+.cor-texto-1 {
+    color: #1e6091;
+}
+
+.cor-texto-2 {
+    color: #2a7b5c;
+}
+
+.cor-texto-3 {
+    color: #5e4b8b;
+}
+
+.cor-texto-4 {
+    color: #9e2a2b;
+}
+
+footer {
+    background-color: #123b62;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
